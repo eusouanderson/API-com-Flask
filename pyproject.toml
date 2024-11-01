@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "akido api"
+version = "2.0"
+description = "Api com flask para salvar no banco de dados documentos do game Akido"
+authors = ["Anderson Rodrigues <eusouanderson@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
